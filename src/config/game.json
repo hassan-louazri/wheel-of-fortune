@@ -1,0 +1,17 @@
+{
+  "id": "wheel-of-fortune",
+  "defaultLanguage": "fr",
+  "maxViewportWidth": 768,
+  "cooldownMinutes": 60,
+  "segments": [
+    { "id": "loss-1", "kind": "loss", "label": { "fr": "Perdu", "en": "Try again" }, "probability": 0.25 },
+    { "id": "dessert", "kind": "prize", "label": { "fr": "Un dessert offert", "en": "A free dessert" }, "probability": 0.1 },
+    { "id": "loss-2", "kind": "loss", "label": { "fr": "Perdu", "en": "Try again" }, "probability": 0.2 },
+    { "id": "coffee", "kind": "prize", "label": { "fr": "Un café offert", "en": "A free coffee" }, "probability": 0.08 },
+    { "id": "loss-3", "kind": "loss", "label": { "fr": "Perdu", "en": "Try again" }, "probability": 0.15 },
+    { "id": "fries", "kind": "prize", "label": { "fr": "Une portion de frites", "en": "A portion of fries" }, "probability": 0.07 },
+    { "id": "loss-4", "kind": "loss", "label": { "fr": "Perdu", "en": "Try again" }, "probability": 0.1 },
+    { "id": "discount", "kind": "prize", "label": { "fr": "10 % de réduction", "en": "10% off your order" }, "probability": 0.05 }
+  ],
+  "spin": { "durationMs": 16000, "turns": 6, "revealDelayMs": 2000 }
+}

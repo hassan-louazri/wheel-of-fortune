@@ -1,0 +1,6 @@
+:root { font-family: Helvetica, Arial, sans-serif; color: #252525; background: #f4f3f7; line-height: 1.65; }
+body { margin: 0 auto; max-width: 760px; padding: 24px; }
+main { background: white; border-radius: 16px; padding: clamp(16px, 4vw, 32px); }
+h1 { line-height: 1.25; } h2 { margin-top: 28px; font-size: 1.2rem; }
+a { color: #1565c0; } a:focus-visible { outline: 3px solid #1976d2; outline-offset: 3px; }
+.draft { padding: 16px; background: #fff4cf; border-radius: 8px; }
